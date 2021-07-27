@@ -1,13 +1,24 @@
-header{
+#head_home{
     position: sticky;
     font-size: 25pt;
     display: block;
     color: green;
+    text-shadow: 1px 1px white;
+}
+
+#body_home{
+    background-color: purple;
+}
+
+#body_head{
+    color: darkgreen;
+    text-shadow: 1px 1px white;
+    font-size: 25pt;
 }
 
 #profile_picture{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -18,7 +29,7 @@ header{
     margin-top: 1rem;
 }
 
-ul{
+#ul_home{
     list-style: none;
     float: right;
 }
@@ -33,6 +44,7 @@ li{
 
 li a{
     color: darkgreen;
+    text-shadow: 1px 1px white;
 }
 
 li a:hover{
@@ -56,24 +68,36 @@ li a:hover{
     clear: both;
 }
 
-p{
-
+#body_text{
     border: 1px dotted black;
     padding: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
-h3{
+#body_head{
     border: 1px solid black;
     padding: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
+#body_text{
+    font-size: 15pt;
+    color: white;
+    text-shadow: 1px 1px green;
+}
+
 #welcome{
     display: block;
     color:green;
+    text-shadow: 1px 1px white;
+    font-size: 40pt;
+    text-align: center;
+    background-image: url(/Final_Project/img/border_image\ \(2\).jpg);
+    background-size: cover;
+    background-position-y: center;
+
 }
 
 #footer{
@@ -83,9 +107,10 @@ h3{
     height: 2.5rem;
     bottom:0;
     background-color: transparent;
-    border: 5px solid black;
-    box-shadow:10px 8px orange;
-    text-shadow:2px 2px paleturquoise;
+    border: 5px dotted black;
+    color: darkgreen;
+    text-shadow: 1px 1px white;
+
 }
 
 .column1 {
