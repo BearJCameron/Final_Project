@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Final_Project/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Palette+Mosaic&display=swap" rel="stylesheet">
+
     <title>Contact Bear J. Cameron</title>
 </head>
     <header class="contact_header">
@@ -23,8 +29,20 @@
     </nav>
 </div>
 
+    <div class="guest_book">
+        <hr>
+        <form method=post action="/cgi-bin/guestBook.pl">
+        <input type=hidden name=fields value="Name,Email,Comments">
+            Name: <br><input type=text name=Name><br>
+            Email Address: <br><input type=text name=Email><br>
+            Comments: <br><textarea name=Comments rows=5 cols=60>
+        </textarea><br>
+        <input type=submit value="Submit">
+        </form>
+        <hr noshade>
+    </div>
     <div class="contact_info">
-        <p id="comment_tag">Please send any comments or advice to:</p>
+        <p id="comment_tag">Please feel free to email me at:</p>
         <ul id="contact_list">
             <!-- <li id="cont_li"><a href="tel:661-403-7757">661-403-7757</a></li> -->
             <li id="cont_li"><a href="mailto:bcameron1144@gmail.com">bcameron1144@gmail.com</a></li>
@@ -40,7 +58,7 @@
             <a>Created by Bear J Cameron</a>
         </div>
         <div class="column1">
-            <a>Date Created</a>
+            <a>Created July 2021</a>
         </div>
 
     </div>
