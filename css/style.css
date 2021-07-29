@@ -115,7 +115,11 @@ li a:hover{
     border: 2px black;
     box-shadow: 5px 5px black;
     font-family: 'Lobster', cursive;
+}
 
+.audio_file{
+    margin: 40px;
+    ;
 }
 
 #footer{
@@ -170,6 +174,7 @@ li a:hover{
 
 #cont_li{
     font-size: 25pt;
+    text-align: center;
     
 }
 
@@ -179,6 +184,8 @@ li a:hover{
 
 #comment_tag{
     text-decoration: underline darkgreen;
+    text-align: center;
+
 }
 
 /* social links */
