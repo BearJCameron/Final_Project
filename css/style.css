@@ -151,6 +151,11 @@ li a:hover{
     clear: both;
 }
 
+#player{
+    width: 200px;
+    padding: 1rem;
+}
+
 /* start of contact page styles */
 
 .contact_header{
@@ -190,9 +195,8 @@ li a:hover{
     text-align: center;
 }
 
-#player{
-    width: 200px;
-    padding: 1rem;
+.guest_book{
+    text-align: center;
 }
 
 /* gallery page */
