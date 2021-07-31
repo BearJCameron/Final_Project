@@ -1,4 +1,4 @@
-/* start of home page styles */
+/* home page styles */
 
 #head_home{
     text-decoration: underline black;
@@ -156,7 +156,7 @@ li a:hover{
     padding: 1rem;
 }
 
-/* start of contact page styles */
+/* contact page styles */
 
 .contact_header{
     display: inline-flexbox;
