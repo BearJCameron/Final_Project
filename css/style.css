@@ -60,7 +60,7 @@ li a{
 li a:hover{
     display: inline;
     color: white;
-    background-image: url(/Final_Project/img/border_image\ \(2\).jpg);
+    background-image: url(/img/border_img.jpg);
     background-position: center;
     padding: 2rem; 
     border: 1px solid black;
@@ -110,7 +110,7 @@ li a:hover{
     text-shadow: 1px 1px white;
     font-size: 40pt;
     text-align: center;
-    background-image: url(/Final_Project/img/border_image\ \(2\).jpg);
+    background-image: url(/img/border_img.jpg);
     background-position-y: center;
     border-radius: 25px;
     border: 2px black;
@@ -120,7 +120,6 @@ li a:hover{
 
 .audio_file{
     margin: 40px;
-    ;
 }
 
 #footer{
