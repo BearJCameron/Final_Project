@@ -173,7 +173,6 @@ li a:hover{
 .contact_info{
     font-size: 25pt;
     text-align: center;
-    margin: 100px;
     padding: 5rem;
 }
 
@@ -221,4 +220,8 @@ li a:hover{
     width: 200px;
     border-radius: 25px;
     padding: 1rem;
+}
+
+.map{
+    
 }
