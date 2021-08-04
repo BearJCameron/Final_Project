@@ -12,8 +12,11 @@
 }
 
 #body_home{
-    background-color: purple;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+    
 }
+
+
 
 #body_head{
     color: darkgreen;
@@ -185,7 +188,7 @@ li a:hover{
 }
 
 .contact_body{
-    background-color:purple;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
 }
 
 #comment_tag{
