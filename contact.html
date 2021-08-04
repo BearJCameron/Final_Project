@@ -39,14 +39,16 @@
 <!-- Contact Page Start -->
     <div class="guest_book">
         <!-- <hr> -->
-        <form method=post action="/cgi-bin/guestBook.pl">
-        <input type=hidden name=fields value="Name,Email,Comments">
-            Name: <br><input type=text name=Name placeholder="Your Name"><br>
-            Email Address: <br><input type=text name=Email placeholder="Your Email Address"><br>
-            Comments: <br><textarea name=Comments rows=5 cols=60>
-        </textarea><br>
-        <input type=submit value="Submit">
-        </form>
+        <div class="input_field">
+            <form method=post action="/cgi-bin/guestBook.pl">
+            <input type=hidden name=fields value="Name,Email,Comments">
+                Name: <br><input type=text name=Name placeholder="Your Name"><br>
+                Email Address: <br><input type=text name=Email placeholder="Your Email Address"><br>
+                Comments: <br><textarea name=Comments rows=5 cols=60>
+            </textarea><br>
+            <input type=submit value="Submit">
+            </form>
+        </div>
         <!-- <hr noshade> -->
     </div>
 

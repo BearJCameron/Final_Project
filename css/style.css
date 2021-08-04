@@ -217,6 +217,12 @@ li a:hover{
     padding: 25px;
 }
 
+.input_field{
+    font-size: 25pt;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 /* gallery page */
 
 .column2 {
