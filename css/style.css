@@ -86,6 +86,17 @@ li a:hover{
     clear: both;
 }
 
+.filler{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 15pt;
+    color: white;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px black;}
+
 #body_text{
     border: 2px solid black;
     border-radius: 25px;
