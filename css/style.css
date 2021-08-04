@@ -30,6 +30,7 @@
     box-shadow: 5px 5px white;
 }
 
+
 .navi{
     display: flex;
     align-items: center;
@@ -40,6 +41,7 @@
 #ul_home{
     list-style: none;
     float: right;
+    
 }
 
 li{
@@ -50,6 +52,8 @@ li{
     margin-left: 1rem;
     padding: 1rem;
     box-shadow: 5px 5px black;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
 }
 
 li a{
@@ -62,11 +66,13 @@ li a{
 li a:hover{
     display: inline;
     color: white;
-    background-image: url(../img/border_img.jpg);
+    /* background-image: url(../img/border_img.jpg); */
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
     background-position: center;
     padding: 2rem; 
     border: 1px solid black;
     border-radius: 25px;
+    box-shadow: 5px 5px black;
 }
 
 
@@ -95,7 +101,10 @@ li a:hover{
     font-size: 15pt;
     color: white;
     text-shadow: 2px 2px black;
-    box-shadow: 5px 5px black;}
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
+}
 
 #body_text{
     border: 2px solid black;
@@ -107,6 +116,8 @@ li a:hover{
     color: white;
     text-shadow: 2px 2px black;
     box-shadow: 5px 5px black;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
 }
 
 #body_head{
@@ -116,6 +127,8 @@ li a:hover{
     padding: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
 }
 
 #welcome{
@@ -150,6 +163,8 @@ li a:hover{
     border-radius: 25px;
     color: darkgreen;
     text-shadow: 1px 1px white;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
 
 }
 
@@ -215,6 +230,8 @@ li a:hover{
     clear: both;
     margin: 25px;
     padding: 25px;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+
 }
 
 .input_field{
@@ -232,6 +249,9 @@ li a:hover{
 
 .row2{
     border: 10px double black;
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
+    border-radius: 25px;
     padding: 1rem;
     margin: 1rem
 }
