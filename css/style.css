@@ -195,6 +195,12 @@ li a:hover{
 
 .guest_book{
     text-align: center;
+    border: solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 25px;
+    clear: both;
+    margin: 25px;
+    padding: 25px;
 }
 
 /* gallery page */
@@ -223,5 +229,13 @@ li a:hover{
 }
 
 .map{
-    
+    text-align: center;
+}
+
+.map_1{
+    border: 5px double darkgreen;
+    border-radius: 25%;
+    box-shadow: 10px 10px black;
+    width: 250px;
+    height: 250px;
 }
