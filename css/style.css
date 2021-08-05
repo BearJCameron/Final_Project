@@ -287,6 +287,20 @@ li a:hover{
     width: 33.33%;
 }
 
+.column1 a:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px purple,
+        0 0 10px pink,
+        0 0 21px lightpink,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+}
+
 .row1:after {
     content: "";
     display: table;
