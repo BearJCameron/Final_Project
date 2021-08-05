@@ -38,6 +38,8 @@
     margin-top: 1rem;
 }
 
+
+
 #ul_home{
     list-style: none;
     float: right;
@@ -73,9 +75,9 @@ li a:hover{
     box-shadow: 5px 5px black;
     color: #fff;
     text-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
+        0 0 7px purple,
+        0 0 10px pink,
+        0 0 21px lightpink,
         0 0 42px #0fa,
         0 0 82px #0fa,
         0 0 92px #0fa,
