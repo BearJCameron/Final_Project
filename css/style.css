@@ -265,7 +265,9 @@ li a:hover{
     height: 200px;
     width: 200px;
     border-radius: 25px;
-    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px black;
+    border: 2px solid black;
 }
 
 .map{
