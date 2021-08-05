@@ -55,8 +55,7 @@ li{
     padding: 1rem;
     box-shadow: 5px 5px black;
     background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
-    font-family: 'Righteous', cursive;
-    ;
+    font-family: 'Righteous', 'cursive';
 }
 
 li a{
