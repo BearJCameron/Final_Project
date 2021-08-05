@@ -61,8 +61,6 @@ li{
 li a{
     color: darkgreen;
     text-shadow: 1px 1px white;
-    /* transition: ease-out;
-    transition-timing-function: 500ms; */
 }
 
 li a:hover{
