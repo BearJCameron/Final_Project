@@ -50,26 +50,27 @@ li{
     display: inline;
     border: 2px solid black;
     border-radius: 25px;
-    font-size: 25pt;
+    font-size: 15pt;
     margin-left: 1rem;
     padding: 1rem;
     box-shadow: 5px 5px black;
     background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
     font-family: 'Righteous', cursive;
+    ;
 }
 
 li a{
     color: darkgreen;
     text-shadow: 1px 1px white;
-    transition: ease-out;
-    transition-timing-function: 500ms;
+    /* transition: ease-out;
+    transition-timing-function: 500ms; */
 }
 
 li a:hover{
     display: inline;
     background-image: linear-gradient(to bottom right, darkgreen, purple, darkgreen);
     background-position: center;
-    padding: 2rem; 
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px black;
